@@ -1,10 +1,8 @@
-/* jshint expr: true */
+function Dog(name,color) {
+    this.name=name,
+    this.color=color,
+    this.numLegs=4
+  
+}
+var terrier = new Dog ("Bull","red")
 
-function House(numBedrooms) {
-    this.numBedrooms = numBedrooms;
-  }
-  
-  // Add your code below this line
-  var myHouse = new House (5);
-  myHouse instanceof House;
-  

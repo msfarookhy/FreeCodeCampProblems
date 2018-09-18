@@ -1,8 +1,5 @@
-function Dog(name,color) {
-    this.name="name",
-    this.color="color",
-    this.numLegs=4
-  
+function Dog() {
+  this.name = "tommy";
+  this.color = "White";
+  this.numLegs = 4;
 }
-var terrier = new Dog ("Bull","red")
-
