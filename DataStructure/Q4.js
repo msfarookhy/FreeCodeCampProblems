@@ -6,3 +6,4 @@ function popShift(arr) {
   
   // do not change code below this line
   console.log(popShift(['challenge', 'is', 'not', 'complete']));
+  
